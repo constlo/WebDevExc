@@ -1,0 +1,147 @@
+.TopBar
+{
+    position: relative;
+    height: 164px;
+    width: 100%;
+    border-top: 7px grey;
+    background-color: rgb(202, 214, 202);
+}
+
+.divCon
+{
+    position:relative;
+    width:100%;
+    height:100%
+}
+
+.MainBar
+{
+    background-color: transparent;
+    position:   relative;
+    width:  68%;
+    height: 100%;
+    flex-shrink: 0;
+    float:left;
+}
+
+.SideBar
+{
+    background-color: transparent;
+    position:   relative;
+    flex-shrink: 0;
+    
+    width:30%;
+    height: 100%;
+    float:right;
+    
+}
+
+.TopArticle
+{
+    background-color: rgb(1, 105, 119);
+    border-bottom:4px solid rgb(202, 214, 202);
+    height:30%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Head
+{
+    font-size: large;
+    font-weight: bold;
+    color:white;
+}
+
+.Topic
+{
+    margin-left: 6px;
+    font-size: medium;
+    font-weight: 600;
+    color:white;
+}
+
+.MainArticleBody
+{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: left;
+    display:inline-block;
+}
+
+.MainArticleImage
+{
+    margin:10px;
+    width: 97%;
+    height: 80%;
+}
+
+.MainArticleHeader
+{
+    margin:10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.MostRead
+{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    
+
+}
+
+.MostReadLogo
+{
+    text-align:left;
+    margin:10px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.MostReadHR
+{
+    color:black;
+    height:1px;
+}
+
+.MostReadContainer
+{
+    margin-top: 10px;
+    position: inherit;
+
+}
+
+.MostReadList
+{
+    position: inherit;
+    padding-left: 3em;
+    background-color: white;
+    
+}
+
+.MostReadList li
+{
+    position: inherit;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    color:cyan;
+    font-weight: bolder;
+}
+
+.ListContainer
+{
+    display: inline-flex;
+    color:black;
+    font-size: medium;
+    margin-left:5px;
+    text-align:left;
+    font-weight: 600;
+    border-bottom: 10px solid white;
+}
